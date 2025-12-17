@@ -23,8 +23,11 @@
 Wav2Lip
 
 Нижняя половина лица (вокруг рта) более размытая, чем остальная часть видео. Это связано с тем, что модель генерирует кроп 96x96 пикселей, который затем растягивается обратно на исходное видео. Границы вклейки могут быть заметны.
-
-![Видео](https://github.com/sv9-ru/Lip-sync/blob/main/results_Wav2Lip/ru_native_Wav2Lip_fixed.mp4)
+  
+<video width="640" height="360" controls>
+  <source src="https://github.com/sv9-ru/Lip-sync/raw/main/results_Wav2Lip/ru_native_Wav2Lip_fixed.mp4" type="video/mp4">
+  Ваш браузер не поддерживает видео тег.
+</video>
 
 Wav2Lip-GFPGAN
 
